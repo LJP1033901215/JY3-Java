@@ -1,0 +1,23 @@
+import java.util.*;
+public class STLX40301
+{
+	public static void main(String[] args)
+	{
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("ÇëÊäÈëÄúµÄÕË»§£º");
+		String q = scanner.next();
+		System.out.print("ÇëÊäÈëÄúµÄÃÜÂë£º");
+		String e = scanner.next();
+		char name = 'a';
+		char word = 'b';
+		char t = q.charAt(0);
+		char c = e.charAt(0);
+		if(t == name && c == word)
+		{
+			System.out.print("ÃÜÂëÕËºÅÕıÈ·");
+		}else if(t != name || c != word)
+		{
+			System.out.print("ÃÜÂë»òÕËºÅ´íÎó");
+		}
+	}
+}

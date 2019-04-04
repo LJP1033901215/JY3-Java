@@ -1,0 +1,19 @@
+import java.util.*;
+public class STLX40307
+{
+	public static void main(String[] agrs)
+	{
+		//do-while循环，最少循环一次
+		Scanner scanner = new Scanner(System.in);
+		//int sx = scanner.nextInt();
+		while(-1 == -1)
+		{
+			int sx = scanner.nextInt();
+			System.out.println("您输入的数是:"+sx);
+			if(sx == -1){
+				break;
+			}
+		}
+		System.out.println("exit...");
+	}
+}

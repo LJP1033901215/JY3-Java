@@ -1,0 +1,15 @@
+import java.util.*;
+public class STLX40405
+{
+	public static void main(String[] agrs)
+	{
+	char[] arr = {'Ìì','½ò'};
+	char[] temp = Arrays.copyOf(arr,4);
+	System.out.println(temp);
+	//char[] newArr = temp;
+	temp[2] = '¶«';
+	temp[3] = 'Èí';
+	System.out.println(temp);
+	}	
+
+}
